@@ -1,0 +1,2 @@
+C:\Users\1\Desktop\Code\C++学习\Learning1\Debug\Learning1.exe
+C:\Users\1\Desktop\Code\C++学习\Learning1\Debug\Learning1.pdb
