@@ -1,0 +1,2 @@
+C:\Users\1\Desktop\Code\C++学习\ManagingSystem\Debug\ManagingSystem.exe
+C:\Users\1\Desktop\Code\C++学习\ManagingSystem\Debug\ManagingSystem.pdb
