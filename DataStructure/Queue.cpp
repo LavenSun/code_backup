@@ -16,11 +16,11 @@ int queue_empty(sp_queue q)
 
 int queue_en(sp_queue* q, datatype e)
 {
-    /* ¶ÓÂú */
+    /* ï¿½ï¿½ï¿½ï¿½ */
     if (q->rear == MAX_QUEUE_SIZE)
         return false;
 
-    /* Èë¶Ó */
+    /* ï¿½ï¿½ï¿½ */
     q->sp_queue_array[q->rear] = e;
     printf("q.sp_queue_array[%d]=%d\n", q->rear, e);
     q->rear += 1;
@@ -29,11 +29,11 @@ int queue_en(sp_queue* q, datatype e)
 
 int queue_de(sp_queue* q, datatype* e)
 {
-    /* ¶Ó¿Õ */
+    /* ï¿½Ó¿ï¿½ */
     if (queue_empty(*q))
         return false;
 
-    /* ³ö¶Ó */
+    /* ï¿½ï¿½ï¿½ï¿½ */
     q->rear -= 1;
     *e = q->sp_queue_array[q->rear];
     return true;
@@ -46,11 +46,11 @@ void queue_clear(sp_queue* q)
 
 int get_front(sp_queue q, datatype* e)
 {
-    /* ¶Ó¿Õ */
+    /* ï¿½Ó¿ï¿½ */
     if (q.front == q.rear)
         return false;
 
-    /* »ñÈ¡¶ÓÍ·ÔªËØ */
+    /* ï¿½ï¿½È¡ï¿½ï¿½Í·Ôªï¿½ï¿½ */
     *e = q.sp_queue_array[q.front];
     return true;
 }
@@ -62,9 +62,9 @@ int queue_len(sp_queue q)
 
 void visit(sp_queue q)
 {
-    /* ¶Ó¿Õ */
+    /* ï¿½Ó¿ï¿½ */
     if (q.front == q.rear)
-        printf("¶ÓÁÐÎª¿Õ\n");
+        printf("ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½\n");
 
     int temp = q.front;
     while (temp != q.rear)

@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include"queue.h"
+#include <stdio.h>
+#include "queue.h"
 #include <malloc.h>
 
 bool InitQueue(LinkQueue& Q)
